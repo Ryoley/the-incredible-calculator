@@ -115,8 +115,8 @@ const styles = StyleSheet.create({
     flex: 1
   },
   resultText: {
-    fontSize: 25,
-    color: 'black'
+    fontSize: 30,
+    color: '#a0a0a0'
   },
   btnText: {
     fontSize: 30,
@@ -132,7 +132,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center'
   },
   calculationText: {
-    fontSize: 30,
+    fontSize: 40,
     color: 'black'
   },
   row: {
@@ -143,15 +143,16 @@ const styles = StyleSheet.create({
   },
   result: {
     flex: 2,
-    marginRight: 20,
+    marginRight: 25,
+    marginTop: 25,
     backgroundColor: 'white',
     justifyContent: 'center',
     alignItems: 'flex-end'
   },
   calculation: {
     flex: 1,
-    marginRight: 20,
-    marginBottom: 20,
+    marginRight: 25,
+    marginBottom: 25,
     backgroundColor: 'white',
     justifyContent: 'center',
     alignItems: 'flex-end'
